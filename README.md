@@ -1,7 +1,7 @@
 # Fractions_module
 Version 1.0.0
 Module to use fraction operators in python.
-According to the next sintaxis 'a |op| b', the existing operators are
+According to the next sintaxis 'a |op| b', the existing operators are:
 - |f|: to convert to values to frac array.
 - |s|: to sum 2 fraction arrays.
 - |r|: to rest 2 fraction arrays.

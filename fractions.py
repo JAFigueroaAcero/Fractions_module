@@ -64,7 +64,7 @@ def sim_frac(a):
         for n in a:
             new_am[rep] *= n
     return new_am
-def dec(a):
+def dec_v(a):
     return a[0]/a[1]
 
 f = Infix(lambda x,y: frac(x,y))       # Do frac
@@ -73,4 +73,4 @@ s = Infix(lambda x,y: sum_frac(x,y))  # Sum frac
 r = Infix(lambda x,y: res_frac(x,y))  # Substract frac
 x = Infix(lambda x,y: mult_frac(x,y)) # Multiplicate frac
 d = Infix(lambda x,y: div_frac(x,y))  # Divide frac
-dec = Infix_i(lambda x: dec(x))       # Converts to float
+dec = Infix_i(lambda x: dec_v(x))       # Converts to float

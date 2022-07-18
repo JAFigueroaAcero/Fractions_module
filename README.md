@@ -7,8 +7,8 @@ According to the next sintaxis 'a |op| b', the existing operators are:
 - |r|: to rest 2 fraction arrays.
 - |x|: to multiply 2 fraction arrays.
 - |d|: to divide 2 fraction arrays.
+- |d2f|: converts a float to fraction with decimal precision of p
 
 Also there are two operators with the sintaxis 'a |op':
 - |sim: simplify a fraction array.
 - |dec: converts a fraction array to float variable.
-

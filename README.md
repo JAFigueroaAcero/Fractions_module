@@ -1,5 +1,5 @@
 # Fractions_module
-Version 1.0.0
+Version 1.0.1
 Module to use fraction operators in python.
 According to the next sintaxis 'a |op| b', the existing operators are:
 - |f|: to convert to values to frac array.
